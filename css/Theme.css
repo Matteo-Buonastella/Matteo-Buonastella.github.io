@@ -211,3 +211,18 @@ hr {                     /*Horizontal line across page on each club page belowe 
     margin-top:-3%;
     text-align:center;
 }
+
+/*///////CSS FOR NEWS ARTICLES ///////*/
+.Article{
+    display:inline-block;
+    margin-bottom:5%;
+    margin-left:19%;
+    
+}
+
+.display{
+    font-size:18px;
+    margin-top:3%;
+    width:90%;
+    
+}
