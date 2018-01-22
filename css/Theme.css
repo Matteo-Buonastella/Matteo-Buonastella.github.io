@@ -210,6 +210,7 @@ hr {                     /*Horizontal line across page on each club page belowe 
 #Record{                       /*Club record displayed on each teams home page*/
     margin-top:-3%;
     text-align:center;
+<<<<<<< HEAD
 }
 
 /*///////CSS FOR NEWS ARTICLES ///////*/
@@ -225,4 +226,6 @@ hr {                     /*Horizontal line across page on each club page belowe 
     margin-top:3%;
     width:90%;
     
+=======
+>>>>>>> origin/master
 }
