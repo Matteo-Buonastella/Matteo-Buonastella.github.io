@@ -43,6 +43,16 @@ function ASRoma1(){
 
 ///////////////////////////////ATALANTA////////////////////////////////////////
 
+function Atalanta4(){
+    document.getElementById("Atalanta4").style.display = "block";
+    var article = document.getElementById("Atalantachoose4")
+    var title = "";
+    title += "<p>" + "Napoli survived a tough test at Atalanta on Sunday as Dries Mertens' second-half goal gave them a 1-0 win that kept them top of Serie A. The Belgian forward ran on to a through ball by Jose Callejon and let the ball bounce several times before scoring with a dipping half-volley over goalkeeper Etrit Berisha in the 65th minute. Napoli, who avenged their Coppa Italia defeat at home to the same team earlier this month, lead with 54 points from 21 games, four clear of Juventus who host Genoa on Monday. " + "</p>" 
+    + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
+    article.innerHTML = title;
+}
+   
+
 function Atalanta3(){
     document.getElementById("Atalanta3").style.display = "block";
     var article = document.getElementById("Atalantachoose3")
@@ -102,6 +112,15 @@ function Benevento1(){
 
 /////////////////////////////////////CAGLIARI/////////////////////////////////
 
+function Cagliari2(){
+    document.getElementById("Cagliari2").style.display = "block";
+    var article = document.getElementById("Cagliarichoose2")
+    var title = "";
+    title += "<p>" + "The ref was in the spotlight as Crotone and Cagliari settle for the 1-1 draw. A highly controbersial penalty was given to Crotone in the first half as the ref used VAR to spot an incident in the box which he deemed to be a foul to the protest of the Cagliari players. He would then hand a controversial red card to Fabio Pisacane for dangerous play towards the end of the first half, right before Cigarini would level the scoreline thanks to a Cigarini free-kick. Crotone thought they won the game in the 90th minute when they scored with a header by Crotoone's Cigarini, but was then called back for offside. Both sides will be frustrated on the day " + "</p>" 
+    + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
+    article.innerHTML = title;
+}
+
 function Cagliari1(){
     document.getElementById("Cagliari").style.display = "block";
     var article = document.getElementById("Cagliarichoose1")
@@ -115,11 +134,43 @@ function Cagliari1(){
 
 ////////////////////////////////////CHIEVO//////////////////////////////////
 
+function Chievo2(){
+    document.getElementById("Chievo2").style.display = "block";
+    var article = document.getElementById("Chievochoose2")
+    var title = "";
+    title += "<p>" + "Juventus continued on their fabulous unbeaten run, which now stretches to 21 matches in all competitions, with yet another league victory at Chievo's Stadio Marc'Antonio Bentegodi. Two goals in the second half from German international Sami Khedira and Argentine striker Gonzalo Higuain defeated a determined 9-man Chievo. Massimiliano Allegri's men went in to the match high on confidence having won their last five Serie A matches, although Juventus were unconvincing in their midweek victory over a stubborn Genoa side. Chievo found themselves 13th in the league, only six points outside the bottom three and in the middle of a concerning run of form having not won in their last six league matches, losing four. " + "</p>" 
+    + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
+
+    article.innerHTML = title;
+}
+
 function Chievo1(){
     document.getElementById("Chievo1").style.display = "block";
     var article = document.getElementById("Chievochoose1")
     var title = "";
     title += "<p>" + "It was men against boys as Lazio once again score 5, this time in a 5-1 trouncing of Chievo Verona. Goals came fast and hard as Lazio propell themselves into 3rd place and the elusive Champions League spot that they so desperately want. Chievo on the other hand continue to drop in the tables after a run of poor form sees them drop into 13th position. Their defense which seemed so formidable at the start of the season is really struggling and with still over a week left in the transfer window, could use some reinforcements. " + "</p>" 
+    + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
+    article.innerHTML = title;
+}
+
+///////////////////////////////////CROTONE////////////////////////////////////
+
+function Crotone1(){
+    document.getElementById("Crotone1").style.display = "block";
+    var article = document.getElementById("Crotonechoose1")
+    var title = "";
+    title += "<p>" + "The ref was in the spotlight as Crotone and Cagliari settle for the 1-1 draw. A highly controbersial penalty was given to Crotone in the first half as the ref used VAR to spot an incident in the box which he deemed to be a foul to the protest of the Cagliari players. He would then hand a controversial red card to Fabio Pisacane for dangerous play towards the end of the first half, right before Cigarini would level the scoreline thanks to a Cigarini free-kick. Crotone thought they won the game in the 90th minute when they scored with a header by Crotoone's Cigarini, but was then called back for offside. Both sides will be frustrated on the day " + "</p>" 
+    + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
+    article.innerHTML = title;
+}
+
+/////////////////////////////////////FIORENTINA//////////////////////////////////
+
+function Fiorentina1(){
+    document.getElementById("Fiorentina1").style.display = "block";
+    var article = document.getElementById("Fiorentinachoose1")
+    var title = "";
+    title += "<p>" + "Hellas Verona's assault on Fiorentina was the surprise of the day as they came out as 4-1 victors away at the Stadio Artemio Franchi. Both teams came into the match in poor form and in desperate need of 3 points, however it was Fiorentina who never came out of the blocks as they limped against a rampant Verona. A brace from youngster Moise Kean sees Verona 3 points closer to safety. " + "</p>" 
     + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
     article.innerHTML = title;
 }
@@ -132,6 +183,18 @@ function Inter1(){
     var article = document.getElementById("Interchoose1")
     var title = "";
     title += "<p>" + "The highly anticipated showdown between Inter and Roma ended 1-1 at the Guissepe Meazza. Having comeback from a 2 week holiday, the players' lack of match fitness showed as the first half was riddled with errors by both teams. In what is turning up to be a highly contested battle for a champions league place, 3 teams (Roma, Lazio and Inter) are fighting for 2 spots. Roma took the lead in the first half through El Shaarawy after an error by Stanton saw the pacey winger through on goal and delecately chipped the ball over Handanovic into the empty goal. Inter would tie the game late on in the second half by a timely finish by Vecino. Inter will be the happier of the two sides as they were quite poor on the day " + "</p>" 
+    + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
+
+    article.innerHTML = title;
+}
+
+//////////////////////////////////////JUVENTUS///////////////////////////////////////////
+
+function Juventus1(){
+    document.getElementById("Juventus1").style.display = "block";
+    var article = document.getElementById("Juventuschoose1")
+    var title = "";
+    title += "<p>" + "Juventus continued on their fabulous unbeaten run, which now stretches to 21 matches in all competitions, with yet another league victory at Chievo's Stadio Marc'Antonio Bentegodi. Two goals in the second half from German international Sami Khedira and Argentine striker Gonzalo Higuain defeated a determined 9-man Chievo. Massimiliano Allegri's men went in to the match high on confidence having won their last five Serie A matches, although Juventus were unconvincing in their midweek victory over a stubborn Genoa side. Chievo found themselves 13th in the league, only six points outside the bottom three and in the middle of a concerning run of form having not won in their last six league matches, losing four. " + "</p>" 
     + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
 
     article.innerHTML = title;
@@ -150,6 +213,18 @@ function Lazio1(){
     article.innerHTML = title;
 }
 
+/////////////////////////////////////NAPOLI/////////////////////////////////////////
+
+
+function Napoli1(){
+    document.getElementById("Napoli1").style.display = "block";
+    var article = document.getElementById("Napolichoose1")
+    var title = "";
+    title += "<p>" + "Napoli survived a tough test at Atalanta on Sunday as Dries Mertens' second-half goal gave them a 1-0 win that kept them top of Serie A. The Belgian forward ran on to a through ball by Jose Callejon and let the ball bounce several times before scoring with a dipping half-volley over goalkeeper Etrit Berisha in the 65th minute. Napoli, who avenged their Coppa Italia defeat at home to the same team earlier this month, lead with 54 points from 21 games, four clear of Juventus who host Genoa on Monday. " + "</p>" 
+    + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
+    article.innerHTML = title;
+}
+    
 
 ////////////////////////////////////////SPAL//////////////////////////////////////////
 
@@ -162,7 +237,16 @@ function SPAL1(){
     article.innerHTML = title;
 }
 
+///////////////////////////////////VERONA///////////////////////////////////////////////
 
+function Verona1(){
+    document.getElementById("Verona1").style.display = "block";
+    var article = document.getElementById("Veronachoose1")
+    var title = "";
+    title += "<p>" + "Hellas Verona's assault on Fiorentina was the surprise of the day as they came out as 4-1 victors away at the Stadio Artemio Franchi. Both teams came into the match in poor form and in desperate need of 3 points, however it was Fiorentina who never came out of the blocks as they limped against a rampant Verona. A brace from youngster Moise Kean sees Verona 3 points closer to safety. " + "</p>" 
+    + "<button class='btn btn-danger' + onclick = 'ShowLess();'>" + "Show Less" + "</button>";
+    article.innerHTML = title;
+}
 
 //////////////////////////////////////UDINESE////////////////////////////////////////////
 
